@@ -1,0 +1,7 @@
+Hibernate: create table Persons (Person_ID int8 not null, FirstName varchar(255), LastName varchar(255), Age int4, primary key (Person_ID))
+Hibernate: create sequence hibernate_sequence
+Nov 21, 2013 7:18:57 AM org.hibernate.tool.hbm2ddl.SchemaExport execute
+INFO: HHH000230: Schema export complete
+Hibernate: select nextval ('hibernate_sequence')
+Hibernate: insert into Persons (FirstName, LastName, Age, Person_ID) values (?, ?, ?, ?)
+Person [id=1, firstName=ranga, lastName=reddy, age=25]
